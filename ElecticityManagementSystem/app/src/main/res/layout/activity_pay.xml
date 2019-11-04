@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pay">
+
+    <TextView
+        android:id="@+id/bill"
+        android:layout_width="323dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="164dp"
+        android:text="PAY YOUR BILL USING:"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/paybutton1"
+        android:layout_width="308dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="112dp"
+        android:text="CREDIT CARD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paybutton2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/paybutton2"
+        android:layout_width="308dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="68dp"
+        android:text="DEBIT CARD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bill" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
